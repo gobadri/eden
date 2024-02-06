@@ -1,7 +1,7 @@
 :root{
-    --color-primary: #FFEA80;
-    --color-dark: #86762d;
-    --color-light: #F9F6EA;
+    --color-primary: #039db9;
+    --color-dark: #003249;
+    --color-light: #eefaff;
 }
 
 html{
@@ -36,6 +36,10 @@ p, a, ul, li{
     font-family: 'Readex Pro', sans-serif;
     font-size: 1rem;
     font-weight: 400;
+}
+
+a{
+  color: var(--color-primary);
 }
 
 .hero{
@@ -96,7 +100,7 @@ nav{
 .hero-cta::before{
     position: absolute;
     content: '';
-    background-image: linear-gradient(rgb(134, 118, 45), rgb(134, 118, 45, 0));
+    background-image: linear-gradient(var(--color-primary), rgb(3, 157, 185, 0));
     left: 0;
     top: 0;
     width: 100%;
@@ -412,7 +416,7 @@ footer{
         border-radius: 0 50px 50px 0;
         margin-top: 10rem;
         height: 40rem;
-        background-image: linear-gradient(-90deg, rgb(134, 118, 45), rgb(134, 118, 45, 0));
+        background-image: linear-gradient(-90deg, var(--color-primary), rgb(3, 157, 185, 0));
 
     }
 }
